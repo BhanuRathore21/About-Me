@@ -228,6 +228,9 @@
       <a href="https://linkedin.com/in/bhanu-rathore-56805120a" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn"></a>
       <a href="https://instagram.com/1ambhanu" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram"></a>
       <a href="https://www.leetcode.com/bhanurathore001" target="_blank"><img style="height: 40px !important;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode"></a>
+      <a href="mailto:bhanurathore231@gmail.com" target="_blank">
+        <img src="https://image.flaticon.com/icons/png/512/281/281769.png" alt="Gmail">
+        </a>
     </div>
     <h3>Languages and Tools:</h3>
     <div class="languages-tools">
