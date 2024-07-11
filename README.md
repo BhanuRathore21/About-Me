@@ -6,6 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      font-size: 20px !important;
       line-height: 1.6;
       background-color: #f0f0f0;
       padding: 20px;
