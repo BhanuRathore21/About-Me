@@ -219,7 +219,6 @@
       <li>👯 I’m looking to collaborate on <a href="https://github.com/BhanuRathore21/django">Employee Portal (Django)</a></li>
       <li>🤝 I’m looking for help with <a href="https://github.com/BhanuRathore21/django">Employee Portal (Django)</a></li>
       <li>👨‍💻 All of my projects are available at <a href="https://github.com/BhanuRathore21">https://github.com/BhanuRathore21</a></li>
-      <li>📫 How to reach me <strong>bhanurathore231@gmail.com</strong></li>
       <li>⚡ Fun fact: I once trained an AI ChatBot to tell jokes and it actually made me laugh!</li>
     </ul>
     <h3>Connect with me:</h3>
