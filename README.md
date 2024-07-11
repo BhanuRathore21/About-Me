@@ -4,6 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Bhanu Rathore</title>
   <style>
+      body {
+      font-family: Arial, sans-serif;
+      font-size: 20px !important;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin: 0;
+    }
   @media (max-width: 1024px) {
     body {
       font-family: Arial, sans-serif;
@@ -86,14 +94,6 @@
     font-size: 14px; 
   }
 }
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 20px !important;
-      line-height: 1.6;
-      background-color: #f0f0f0;
-      padding: 20px;
-      margin: 0;
-    }
     .container {
       max-width: 1000px;w
       margin: 0 auto;
