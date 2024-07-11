@@ -5,6 +5,10 @@
   <title>About Me - Bhanu Rathore</title>
   <style>
   @media (max-width: 1024px) {
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px !important;
+    }
 .container {
     max-width: 100% !important; 
     padding: 10px; 
@@ -14,7 +18,7 @@
   }
   .languages-tools img {
     width: 50px; !important
-    height: 50px !important;
+    height: 50px; !important;
   }
   h1 {
     font-size: 28px; 
@@ -30,6 +34,10 @@
   }
 }
 @media (max-width: 768px) {
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px !important;
+    }
   .container {
     max-width: 100% !important; 
     padding: 15px; 
@@ -49,6 +57,10 @@
   }
 }
 @media (max-width: 480px) {
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px !important;
+    }
   .container {
     max-width: 100% !important; 
     padding: 10px; 
@@ -83,7 +95,7 @@
       margin: 0;
     }
     .container {
-      max-width: 1000px;
+      max-width: 1000px;w
       margin: 0 auto;
       background-color: #fff;
       padding: 30px;
