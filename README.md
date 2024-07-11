@@ -5,8 +5,9 @@
   <title>About Me - Bhanu Rathore</title>
   <style>
   @media (max-width: 1024px) {
-  .container {
-    padding: 20px; 
+.container {
+    max-width: 90%; /* Adjusted max-width for mobile */
+    padding: 10px; /* Adjusted padding for mobile */
   }
   .social-icons {
     margin-top: 15px; 
@@ -30,6 +31,7 @@
 }
 @media (max-width: 768px) {
   .container {
+    max-width: 90% !important; 
     padding: 15px; 
   }
   .languages-tools img {
@@ -48,11 +50,12 @@
 }
 @media (max-width: 480px) {
   .container {
+    max-width: 90% !important; 
     padding: 10px; 
   }
   .languages-tools {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column !important; 
+    align-items: center !important; 
   }
   .languages-tools img {
     width: 30px; !important
