@@ -1,8 +1,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Bhanu Rathore</title>
   <style>
+  @media (max-width: 1024px) {
+  .container {
+    padding: 20px; 
+  }
+  .social-icons {
+    margin-top: 15px; 
+  }
+  .languages-tools img {
+    width: 50px; !important
+    height: 50px !important;
+  }
+  h1 {
+    font-size: 28px; 
+  }
+  h3 {
+    font-size: 18px;
+  }
+  ul {
+    font-size: 18px; 
+  }
+  .stats {
+    margin-top: 20px; 
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; 
+  }
+  .languages-tools img {
+    width: 40px; !important
+    height: 40px !important;
+  }
+  h1 {
+    font-size: 24px; 
+  }
+  h3 {
+    font-size: 16px; 
+  }
+  ul {
+    font-size: 16px; 
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 10px; 
+  }
+  .languages-tools {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .languages-tools img {
+    width: 30px; !important
+    height: 30px !important;
+    margin: 5px !important;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 14px; 
+  }
+  ul {
+    font-size: 14px; 
+  }
+}
     body {
       font-family: Arial, sans-serif;
       font-size: 20px;
@@ -85,7 +151,6 @@
       animation: rotate 1s linear infinite;
       transition: transform 0.3s ease-out;
     }
-
     .languages-tools img:hover {
       background-color: transparent;
     }
@@ -100,73 +165,6 @@
       display: block;
       margin: 0 auto;
     }
-
-    /* Media Query for Responsive Design */
-    @media (max-width: 1024px) {
-      .container {
-        padding: 20px; /* Adjust padding */
-      }
-      .social-icons {
-        margin-top: 15px; /* Adjust margin */
-      }
-      .languages-tools img {
-        width: 50px; /* Adjust image size */
-        height: 50px;
-      }
-      h1 {
-        font-size: 28px; /* Adjust heading font size */
-      }
-      h3 {
-        font-size: 18px; /* Adjust sub-heading font size */
-      }
-      ul {
-        font-size: 18px; /* Adjust list item font size */
-      }
-      .stats {
-        margin-top: 20px; /* Adjust margin */
-      }
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        padding: 15px; /* Further adjust padding */
-      }
-      .languages-tools img {
-        width: 40px; /* Further adjust image size */
-        height: 40px;
-      }
-      h1 {
-        font-size: 24px; /* Further adjust heading font size */
-      }
-      h3 {
-        font-size: 16px; /* Further adjust sub-heading font size */
-      }
-      ul {
-        font-size: 16px; /* Further adjust list item font size */
-      }
-    }
-
-    @media (max-width: 480px) {
-      .container {
-        padding: 10px; /* Adjust padding for smaller screens */
-      }
-      .languages-tools {
-        flex-direction: column; /* Stack icons vertically */
-        align-items: center; /* Center icons */
-      }
-      .languages-tools img {
-        margin: 5px; /* Adjust margin */
-      }
-      h1 {
-        font-size: 20px; /* Further adjust heading font size */
-      }
-      h3 {
-        font-size: 14px; /* Further adjust sub-heading font size */
-      }
-      ul {
-        font-size: 14px; /* Further adjust list item font size */
-      }
-    }
   </style>
 </head>
 <body>
@@ -174,7 +172,6 @@
     <h1>Hi 👋, I'm Bhanu Rathore</h1>
     <h3>A passionate Software Engineer from India</h3>
     <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
-
     <ul>
       <li>🔭 I’m currently working on <a href="https://github.com/BhanuRathore21/Gemini-Pro-Chatbot">AI Chatbot Helps of Gemini</a></li>
       <li>🌱 I’m currently learning Django, NodeJS, Docker, AWS, Azure</li>
@@ -184,7 +181,6 @@
       <li>📫 How to reach me <strong>bhanurathore231@gmail.com</strong></li>
       <li>⚡ Fun fact: I once trained an AI ChatBot to tell jokes and it actually made me laugh!</li>
     </ul>
-
     <h3>Connect with me:</h3>
     <div class="social-icons">
       <a href="https://twitter.com/bhanurathore001" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter"></a>
@@ -192,7 +188,6 @@
       <a href="https://instagram.com/1ambhanu" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram"></a>
       <a href="https://www.leetcode.com/bhanurathore001" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode"></a>
     </div>
-
     <h3>Languages and Tools:</h3>
     <div class="languages-tools">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS">
@@ -223,7 +218,6 @@
       <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript">
     </div>
-
     <div class="stats">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhanurathore21&layout=compact" alt="Top Languages">
     </div>
