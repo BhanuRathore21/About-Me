@@ -6,8 +6,8 @@
   <style>
   @media (max-width: 1024px) {
 .container {
-    max-width: 90%; /* Adjusted max-width for mobile */
-    padding: 10px; /* Adjusted padding for mobile */
+    max-width: 100% !important; 
+    padding: 10px; 
   }
   .social-icons {
     margin-top: 15px; 
@@ -31,7 +31,7 @@
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 90% !important; 
+    max-width: 100% !important; 
     padding: 15px; 
   }
   .languages-tools img {
@@ -50,13 +50,15 @@
 }
 @media (max-width: 480px) {
   .container {
-    max-width: 90% !important; 
+    max-width: 100% !important; 
     padding: 10px; 
   }
-  .languages-tools {
-    flex-direction: column !important; 
-    align-items: center !important; 
-  }
+    .languages-tools {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: center;
+      margin-top: 20px;
+    }
   .languages-tools img {
     width: 30px; !important
     height: 30px !important;
