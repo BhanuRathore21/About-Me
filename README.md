@@ -104,9 +104,9 @@
 </head>
 <body>
   <div class="container">
-    <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
     <h1>Hi 👋, I'm Bhanu Rathore</h1>
     <h3>A passionate Software Engineer from India</h3>
+        <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
 
     <ul>
       <li>🔭 I’m currently working on <a href="https://github.com/BhanuRathore21/Gemini-Pro-Chatbot">AI Chatbot Helps of Gemini</a></li>
