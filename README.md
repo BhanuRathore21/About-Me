@@ -80,14 +80,14 @@
     }
     .languages-tools img {
       width: 60px;
-      height: 60px;
-      margin: 10px; /* Adjust margin between icons */
+      height: 60px !important;
+      margin: 10px !important; /* Adjust margin between icons */
       animation: rotate 1s linear infinite;
       transition: transform 0.3s ease-out;
     }
 
     .languages-tools img:hover {
-      transform: scale(1.2) rotate(360deg);
+      background-color: transparent;
     }
     .stats {
       text-align: center;
