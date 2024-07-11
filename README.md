@@ -17,9 +17,17 @@
       font-family: Arial, sans-serif;
       font-size: 16px !important;
     }
+    .my-5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }
+    .px-3{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    }
 .container {
     max-width: 100% !important; 
-    padding: 10px; 
+    padding: 10px !important; 
   }
   .social-icons {
     margin-top: 15px; 
@@ -46,9 +54,17 @@
       font-family: Arial, sans-serif;
       font-size: 16px !important;
     }
+        .my-5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }
+    .px-3{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    }
   .container {
     max-width: 100% !important; 
-    padding: 15px; 
+    padding: 15px !important; 
   }
   .languages-tools img {
     width: 40px; !important
@@ -69,9 +85,17 @@
       font-family: Arial, sans-serif;
       font-size: 16px !important;
     }
+        .my-5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }
+    .px-3{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    }
   .container {
     max-width: 100% !important; 
-    padding: 10px; 
+    padding: 10px !important; 
   }
     .languages-tools {
       display: flex !important;
