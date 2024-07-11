@@ -228,7 +228,7 @@
       <a href="https://instagram.com/1ambhanu" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram"></a>
       <a href="https://www.leetcode.com/bhanurathore001" target="_blank"><img style="height: 40px !important;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode"></a>
       <a href="mailto:bhanurathore231@gmail.com" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png" alt="Gmail">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5zAvft77VLNbe7_X3LYZqNnvkiR1OegG6A&s" alt="Gmail">
         </a>
     </div>
     <h3>Languages and Tools:</h3>
