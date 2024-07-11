@@ -66,13 +66,11 @@
     .social-icons img {
       width: 40px;
       height: 40px;
-      border-radius: 50%;
-      background-color: #333;
       padding: 5px;
       transition: background-color 0.3s ease-out;
     }
     .social-icons img:hover {
-      background-color: #555;
+      background-color: #f0f0f0;
     }
     .languages-tools {
       display: flex;
