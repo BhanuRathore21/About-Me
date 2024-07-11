@@ -87,11 +87,7 @@
       animation: rotate 1s linear infinite;
       transition: transform 0.3s ease-out;
     }
-    @keyframes rotate {
-      to {
-        transform: rotate(360deg);
-      }
-    }
+
     .languages-tools img:hover {
       transform: scale(1.2) rotate(360deg);
     }
