@@ -196,7 +196,25 @@
       background-color: transparent;
     transform: scale(1.2);
     }
-    .stats {
+    .languages-tools img::before {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* Ensures the tooltip doesn't interfere with mouse events on the img */
+}
+.languages-tools img:hover::before {
+  opacity: 1;
+}
+        .stats {
       text-align: center;
       margin-top: 30px;
       animation: fadeIn 0.8s ease-out;
