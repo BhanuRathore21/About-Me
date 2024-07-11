@@ -67,11 +67,10 @@
     .social-icons img {
       width: 40px;
       height: 40px;
-      padding: 5px;
-      transition: background-color 0.3s ease-out;
+      transition: transform 0.3s ease-out;
     }
     .social-icons img:hover {
-      background-color: #f0f0f0;
+      background-color: transparent;
     }
     .languages-tools {
       display: flex;
@@ -82,7 +81,7 @@
     .languages-tools img {
       width: 60px;
       height: 60px;
-      margin: 10px;
+      margin: 10px; /* Adjust margin between icons */
       animation: rotate 1s linear infinite;
       transition: transform 0.3s ease-out;
     }
@@ -171,10 +170,10 @@
   </style>
 </head>
 <body>
-    <div class="container">
+  <div class="container">
     <h1>Hi 👋, I'm Bhanu Rathore</h1>
     <h3>A passionate Software Engineer from India</h3>
-        <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
+    <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
 
     <ul>
       <li>🔭 I’m currently working on <a href="https://github.com/BhanuRathore21/Gemini-Pro-Chatbot">AI Chatbot Helps of Gemini</a></li>
