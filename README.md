@@ -1,18 +1,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - Bhanu Rathore</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      font-size: 20px !important;
+      font-size: 20px;
       line-height: 1.6;
       background-color: #f0f0f0;
       padding: 20px;
+      margin: 0;
     }
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
       background-color: #fff;
       padding: 30px;
@@ -101,10 +101,77 @@
       display: block;
       margin: 0 auto;
     }
+
+    /* Media Query for Responsive Design */
+    @media (max-width: 1024px) {
+      .container {
+        padding: 20px; /* Adjust padding */
+      }
+      .social-icons {
+        margin-top: 15px; /* Adjust margin */
+      }
+      .languages-tools img {
+        width: 50px; /* Adjust image size */
+        height: 50px;
+      }
+      h1 {
+        font-size: 28px; /* Adjust heading font size */
+      }
+      h3 {
+        font-size: 18px; /* Adjust sub-heading font size */
+      }
+      ul {
+        font-size: 18px; /* Adjust list item font size */
+      }
+      .stats {
+        margin-top: 20px; /* Adjust margin */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px; /* Further adjust padding */
+      }
+      .languages-tools img {
+        width: 40px; /* Further adjust image size */
+        height: 40px;
+      }
+      h1 {
+        font-size: 24px; /* Further adjust heading font size */
+      }
+      h3 {
+        font-size: 16px; /* Further adjust sub-heading font size */
+      }
+      ul {
+        font-size: 16px; /* Further adjust list item font size */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+      }
+      .languages-tools {
+        flex-direction: column; /* Stack icons vertically */
+        align-items: center; /* Center icons */
+      }
+      .languages-tools img {
+        margin: 5px; /* Adjust margin */
+      }
+      h1 {
+        font-size: 20px; /* Further adjust heading font size */
+      }
+      h3 {
+        font-size: 14px; /* Further adjust sub-heading font size */
+      }
+      ul {
+        font-size: 14px; /* Further adjust list item font size */
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
+    <div class="container">
     <h1>Hi 👋, I'm Bhanu Rathore</h1>
     <h3>A passionate Software Engineer from India</h3>
         <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" alt="Software Engineer" class="gif">
@@ -129,7 +196,33 @@
 
     <h3>Languages and Tools:</h3>
     <div class="languages-tools">
-      <!-- Your existing images for languages and tools -->
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS">
+      <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure">
+      <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="CodeIgniter">
+      <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js">
+      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
+      <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="Heroku">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" alt="Laravel">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB">
+      <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQL Server">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL">
+      <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
+      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux">
+      <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript">
     </div>
 
     <div class="stats">
