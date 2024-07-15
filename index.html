@@ -177,7 +177,10 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             animation: fadeIn 0.5s ease-out;
         }
-
+        body.dark-mode .container {
+            background-color: #444; 
+            color: #f0f0f0; 
+        }
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -299,10 +302,10 @@
     </style>
     <script>
         function toggleDarkMode() {
-          var body = document.body;
-          body.classList.toggle("dark-mode");
+            var body = document.body;
+            body.classList.toggle("dark-mode");
         }
-      </script>
+    </script>
 </head>
 
 <body>
